@@ -6,7 +6,7 @@ import groovy.transform.Field
 
 metadata {
 
-    definition (name: "Wink Lookout Door/Window Sensor", namespace: "djdizzyd", author: "Bryan Copeland", importUrl: "https://raw.githubusercontent.com/djdizzyd/hubitat/master/Drivers/Wink/door-window-sensor.groovy") {
+    definition (name: "Inteset Door/Window Sensor", namespace: "elgreen99", author: "Bryan Copeland, Eric Green", importUrl: "https://raw.githubusercontent.com/elgreen99/hubitat/master/Drivers/Inteset/door-window-sensor.groovy") {
         capability "Actuator"
         capability "Sensor"
         capability "Configuration"
@@ -14,7 +14,7 @@ metadata {
         capability "ContactSensor"
         capability "Configuration"
 
-        fingerprint mfr:"017F", prod:"0100", deviceId:"0001", inClusters:"0x5E,0x86,0x72,0x5A,0x73,0x80,0x71,0x30,0x85,0x59,0x84,0x70", deviceJoinName: "Wink Lookout Door/Window Sensor"
+        fingerprint mfr:"039A", prod:"0003", deviceId:"0101", inClusters:"0x5E,0x86,0x72,0x5A,0x73,0x80,0x71,0x30,0x85,0x59,0x84,0x70", deviceJoinName: "Wink Lookout Door/Window Sensor"
     }
     preferences {
         input name: "logEnable", type: "bool", title: "Enable debug logging", defaultValue: true
