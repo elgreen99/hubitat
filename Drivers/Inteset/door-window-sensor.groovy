@@ -14,7 +14,7 @@ metadata {
         capability "ContactSensor"
         capability "Configuration"
 
-        fingerprint mfr:"039A", prod:"0003", deviceId:"0101", inClusters:"0x5E,0x86,0x72,0x5A,0x73,0x80,0x71,0x30,0x85,0x59,0x84,0x70", deviceJoinName: "Wink Lookout Door/Window Sensor"
+        fingerprint mfr:"039A", prod:"0003", deviceId:"0101", inClusters:"0x5E,0x86,0x72,0x5A,0x73,0x80,0x71,0x30,0x85,0x59,0x84,0x70", deviceJoinName: "Inteset Door/Window Sensor"
     }
     preferences {
         input name: "logEnable", type: "bool", title: "Enable debug logging", defaultValue: true
