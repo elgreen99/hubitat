@@ -1,5 +1,8 @@
 import groovy.transform.Field
 /*
+*  Inteset Door / Window Sensor
+*
+*  Modified from Bryan Copeland's 
 *	Wink Door / Window Sensor
 *   v1.0
 */
